@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hw-19/static/css/main.5fef82e1.css",
-    "main.js": "/hw-19/static/js/main.e80d26f9.js",
-    "static/js/787.55c182fe.chunk.js": "/hw-19/static/js/787.55c182fe.chunk.js",
+    "main.js": "/hw-19/static/js/main.36f26030.js",
+    "static/js/787.b119840d.chunk.js": "/hw-19/static/js/787.b119840d.chunk.js",
     "static/media/4k-eagle-in-mountains-3hx4ybfus71fibgd.jpg": "/hw-19/static/media/4k-eagle-in-mountains-3hx4ybfus71fibgd.6dcd63dcfd2fffae7567.jpg",
     "index.html": "/hw-19/index.html",
     "main.5fef82e1.css.map": "/hw-19/static/css/main.5fef82e1.css.map",
-    "main.e80d26f9.js.map": "/hw-19/static/js/main.e80d26f9.js.map",
-    "787.55c182fe.chunk.js.map": "/hw-19/static/js/787.55c182fe.chunk.js.map"
+    "main.36f26030.js.map": "/hw-19/static/js/main.36f26030.js.map",
+    "787.b119840d.chunk.js.map": "/hw-19/static/js/787.b119840d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fef82e1.css",
-    "static/js/main.e80d26f9.js"
+    "static/js/main.36f26030.js"
   ]
 }
