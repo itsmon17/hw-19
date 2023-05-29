@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Provider, useSelector } from "react-redux";
+import Login from "./auth/Login";
+import CalculatorApp from "./components/CalculatorApp";
+import store from "./store";
 
 function App() {
+  const { isAuthorization } = useSelector((state) => state.user);
+  console.log(isAuthorization);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {!isAuthorization ? (
+        <Login />
+      ) : (
+        <Provider store={store}>
+          <CalculatorApp />
+        </Provider>
+      )}
+    </>
   );
 }
 
